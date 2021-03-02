@@ -21,8 +21,8 @@ create base.js file in src directory.
 copy code configuration in base.js and write your realtime database informations :
 
 
-import firebase from 'firebase'
-import 'firebase/database'
+import firebase from 'firebase' <br>
+import 'firebase/database' <br>
 
 const firebaseApp = firebase.initializeApp({<br>
     apiKey: "apikey",<br>
