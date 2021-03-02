@@ -24,10 +24,10 @@ copy code configuration in base.js and write your realtime database informations
 import firebase from 'firebase'
 import 'firebase/database'
 
-const firebaseApp = firebase.initializeApp({
-    apiKey: "apikey",
-    authDomain: "authDomain",
-    databaseURL: "databaseURL",
+const firebaseApp = firebase.initializeApp({   
+    apiKey: "apikey",   
+    authDomain: "authDomain",   
+    databaseURL: "databaseURL",   
 })
 
 const base = firebase.database()
